@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>798</x>
+      <y>180</y>
+      <w>96</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Card
+--
+-name
+-mana
+-attack
+-hp
+-ability
+-card_class
+-img 
+--
+
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>576</x>
+      <y>132</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Deck
+--
+-cards
+-battle_cards
+-table
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>144</y>
+      <w>180</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..n
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>732</x>
+      <y>462</y>
+      <w>60</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>BattleCard
+--
+-mana
+-attack
+-hp
+-ability
+--
+--
+Это конкретная карта в 
+конкретном бою конкретного игрока.
+Создаем копии каждой Card, которые
+относятся к колоде игрока в начале боя.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>294</y>
+      <w>108</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;280.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>24</y>
+      <w>78</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>UserProfile
+--
+-nickname
+-decks
+-leaves
+-friends
+-cards
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>18</y>
+      <w>228</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;360.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>378</y>
+      <w>294</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;470.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>480</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Table</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>144</y>
+      <w>72</w>
+      <h>348</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;560.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>606</x>
+      <y>474</y>
+      <w>138</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..n
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>426</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Hand</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>144</y>
+      <w>126</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;470.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>426</y>
+      <w>234</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..n
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;370.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>18</y>
+      <w>498</w>
+      <h>174</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;810.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>372</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>BattleDeck</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>414</x>
+      <y>144</y>
+      <w>186</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>290.0;10.0;10.0;380.0</additional_attributes>
+  </element>
+</diagram>
