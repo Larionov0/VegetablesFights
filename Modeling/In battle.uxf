@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>6</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>798</x>
-      <y>180</y>
-      <w>96</w>
-      <h>120</h>
+      <x>1330</x>
+      <y>600</y>
+      <w>160</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>Card
 --
@@ -28,10 +28,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
-      <y>132</y>
-      <w>60</w>
-      <h>18</h>
+      <x>960</x>
+      <y>520</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Deck
 --
@@ -44,10 +44,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>144</y>
-      <w>180</w>
-      <h>54</h>
+      <x>1050</x>
+      <y>540</y>
+      <w>300</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..1
@@ -58,10 +58,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>732</x>
-      <y>462</y>
-      <w>60</w>
-      <h>60</h>
+      <x>1220</x>
+      <y>1070</y>
+      <w>100</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>BattleCard
 --
@@ -80,10 +80,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
-      <y>294</y>
-      <w>108</w>
-      <h>180</h>
+      <x>1260</x>
+      <y>790</y>
+      <w>180</w>
+      <h>300</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
@@ -94,10 +94,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>288</x>
-      <y>24</y>
-      <w>78</w>
-      <h>72</h>
+      <x>480</x>
+      <y>340</y>
+      <w>130</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>UserProfile
 --
@@ -112,10 +112,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>18</y>
-      <w>228</w>
-      <h>144</h>
+      <x>600</x>
+      <y>330</y>
+      <w>380</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -126,10 +126,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>378</y>
-      <w>294</w>
-      <h>96</h>
+      <x>750</x>
+      <y>930</y>
+      <w>490</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -140,10 +140,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>552</x>
-      <y>480</y>
-      <w>60</w>
-      <h>18</h>
+      <x>920</x>
+      <y>1100</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Table</panel_attributes>
     <additional_attributes/>
@@ -151,10 +151,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>144</y>
-      <w>72</w>
-      <h>348</h>
+      <x>960</x>
+      <y>540</y>
+      <w>120</w>
+      <h>580</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -165,10 +165,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>606</x>
-      <y>474</y>
-      <w>138</w>
-      <h>30</h>
+      <x>1010</x>
+      <y>1090</y>
+      <w>230</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..1
@@ -179,10 +179,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>426</y>
-      <w>60</w>
-      <h>18</h>
+      <x>760</x>
+      <y>1010</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Hand</panel_attributes>
     <additional_attributes/>
@@ -190,10 +190,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>144</y>
-      <w>126</w>
-      <h>294</h>
+      <x>800</x>
+      <y>540</y>
+      <w>210</w>
+      <h>490</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -204,10 +204,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>426</y>
-      <w>234</w>
-      <h>54</h>
+      <x>850</x>
+      <y>1010</y>
+      <w>390</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..1
@@ -218,10 +218,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>18</y>
-      <w>498</w>
-      <h>174</h>
+      <x>600</x>
+      <y>330</y>
+      <w>830</w>
+      <h>290</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
@@ -232,10 +232,10 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>396</x>
-      <y>372</y>
-      <w>60</w>
-      <h>18</h>
+      <x>660</x>
+      <y>920</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>BattleDeck</panel_attributes>
     <additional_attributes/>
@@ -243,15 +243,45 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>414</x>
-      <y>144</y>
-      <w>186</w>
-      <h>240</h>
+      <x>690</x>
+      <y>540</y>
+      <w>310</w>
+      <h>400</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1
 teaches to &gt;</panel_attributes>
     <additional_attributes>290.0;10.0;10.0;380.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>70</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>User
+--
+-name
+-password
+-email
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>180</y>
+      <w>110</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
 </diagram>
