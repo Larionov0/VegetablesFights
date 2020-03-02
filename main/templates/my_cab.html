@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+
+{%block title%}
+	<title>Cabinet of {{ user.username }}</title>
+	{% load static %}
+	<link type="text/css" rel="stylesheet" href="{% static 'css/my_cab.css' %}">
+{% endblock %}
+
+{%block content%}
+<section class="ramka">
+	<h1 id="cab_name">Кабинет: {{user.username}}</h1>
+	<table id="characteristics">
+	    <tr>
+	        <td>Листья: </td><td>{{ userprofile.leaves }}</td>
+	    </tr>
+	</table>
+	<br>
+
+	<div>
+		<div class="option">
+		<a href="#">Начать бой</a>
+		</div>
+		<div class="option">
+		<a href="#">В магазин</a>
+		</div>
+		<div class="option">
+		<a href="#">Редактировать колоды</a> <br>
+		</div>
+		<div class="option">
+		<a href="#">Редактировать профиль</a> <br>
+		</div>
+	</div>
+	<div class="option exit">	
+		<a href="{% url 'authsys:log_out' %}">Выйти из аккаунта</a>
+	</div>
+</section>
+{% endblock %}

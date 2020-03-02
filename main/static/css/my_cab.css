@@ -1,0 +1,43 @@
+.option {
+	background-color: rgba(0, 0, 40, 0.5);
+	font-size: 20pt;
+	width: 25%;
+	padding: 10px 5px;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.option:hover {
+	width: 30%;
+}
+
+
+.option a {
+	text-decoration: none;
+	color: rgba(129, 201, 56, 1);
+
+} 
+
+body {
+	background-color: rgba(126, 217, 209, 0.6);
+	padding: 0px;
+}
+
+.ramka {
+	margin: 0% 20%;
+	background-color: rgba(126, 217, 209, 1);
+	/* border: 2px solid red; */
+}
+
+#cab_name {
+	font-family: Arial;
+	font-size: 30pt;
+	text-align: center;
+}
+
+.exit {
+	margin-top: 30%;
+	width: 28%;
+}
+
